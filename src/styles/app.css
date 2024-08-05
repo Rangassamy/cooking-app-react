@@ -1,0 +1,69 @@
+/* styles/app.css */
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 70px auto 30px;
+}
+
+input {
+  text-align: center;
+  margin: 0 auto;
+  width: 700px;
+  padding: 10px 15px;
+}
+.meal-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.meal-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.meal-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.meal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.meal-link {
+  font-size: 1rem;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 20px;
+  display: block;
+  background-color: rgb(16, 16, 16);
+}
+
+.meal-link:hover {
+  text-decoration: underline;
+}
